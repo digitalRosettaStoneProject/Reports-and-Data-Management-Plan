@@ -1,0 +1,1 @@
+This repository contains the data management plan of the Digital Rosetta Stone Project (DMP, in German, created in a seminar of Leipzg University together with students) and further files of reports and project management.
