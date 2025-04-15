@@ -1,0 +1,109 @@
+Digital Rosetta Stone Project
+Datenmanagementplan (DMP)
+
+Erstellt durch: Franziska Naether
+Datum: 27.10.2023
+Version: 1.1
+
+Administrative Angaben
+
+Projekttitel: Digital Rosetta Stone Project / Der Stein von Rosette digital
+Antragsnummer: keine
+Fördergeber: BMBF, Exzellenzmittel des Bundes für die Lehre, Förderformat „StiL – Studieren in Leipzig“, Unterformat „LaborUniversität“
+Zeitraum: seit 05/2015 bis jetzt mit Haushaltsmitteln, 01.10.2017-31.03.2019 mit BMBF-Mitteln
+Mitarbeitende/Datenurheber: Josephine Hensel M. A. (Ägyptologie), Miriam Amin, M. Sc. (Informatik); zuvor beteiligt: Julia Jushaninowa
+Koordinierung: Dr. Monica Berti, Dr. Franziska Naether
+Antragsteller: Ägyptolologisches Institut / Ägyptisches Museum -Georg Steindorff- und Institut für Informatik, Lehrstuhl für Digital Humanities der Universität Leipzig
+Kontakt: naether(at)uni-leipzig.de 
+
+Kurzbeschreibung/Abstract Gesamtvorhaben:
+
+The "Stone of Rosette" is one of the most famous artifacts of antiquity. It is the visitor highlight at the British Museum in London. Based on this trilingual object, J.-F. Champollion deciphered the hieroglyphs in 1822. 
+In teaching, the content of the inscription plays a minor role. It is a decree with resolutions passed by a synod of priests with the Pharaoh. These include provisions on religious practice such as the erection of statues of consecration, temple building or the introduction of new cults. It also provides information on political history. Such decrees should be established in all temples of Egypt. It is of interest to understand the communication of the decisions of political and religious forces to the population with students. 
+The main part of this project is to understand the language and content of the text. Rarely are students able to read all three languages in the original. We therefore want to use existing digital resources to develop new tools in dialogue.
+
+Presseberichte: https://rosetta-stone.dh.uni-leipzig.de/rs/press/ 
+
+
+Beschreibung der Daten und Metadaten
+
+
+-	Textdaten: Worddokumente (*.docx), PDF-Dateien (*.pdf), Tabellen (*.xls) von Forschungsmaterial wie (Teil-)Übersetzungen, Transkriptionen, Notizen zu Lesungen, grammatischer Annotation, Leipzig Glossing Rules, Fachliteratur, Daten zum Projektmanagement und der Finanzierung, Präsentationen für Vorträge etc. als *.ppt & *.pdf), TEI-konforme Textdateien vom Alignment (in Ugarit iAligner, Output in mehreren Formaten mgl., hier auch als XML archiviert, Textdateien vom Treebanking in Arethusa (siehe hier archiviert)
+-	Bilddaten: von Quellen/Artefakten/dem Stein (*.jpg und *.tiff), weitere Forschungsdaten u. a. für die virtuelle Ausstellung als *.gif und *.png
+-	3D-Daten: Rohdaten als *.tiff und reduziert als *.jpg, Shape-from-Shading: Angelos fragen; einfaches iPad-3D-Modell inkl. Forschungssoftware: siehe hier (geforktes Repo)
+-	Videos: *.mp4-Dateien (auch im Zeitraffer) von Gianluca Cumani, TED-Talk-Video: siehe YouTube, Sunoikisis Videos: Livestream mit Google Hangouts (bis 2018) und Streamyard (ab 2018) in Youtube
+-	Rosetta App zur Ansicht der Depth Map
+
+-	Speicherung: Individuell auf dienstlichen Computern (Amin, Berti, Hensel, Naether) und privaten Computern (alle) sowie auf Cloud-Diensten (gemeinsamer Google-Drive-Ordner; Berti: eigene Dropbox; Naether: individuelle Dateien auf Speicherwolke der UL, OneDrive, private externe Festplatte); in Ordnerstrukturen zu Administration, Textedition, Fotos, Präsentationen etc.
+
+-	Umfang: mehrere GB
+
+-	Ursprung: gemeinsame Entwicklung; maßgeblich für die Textdaten ist Google Drive, maßgeblich für die neuen Bilder vom Stein von Rosette sind die Fotodaten von Angelos Barmpoutis und Eleni Bozia.
+
+-	Metadaten: nicht einzeln vorhanden, n/a, hier in Repos oder eingebettet in Tools (Ugarit iAligner)
+
+-	Github: siehe hier
+
+-	Wissensbasis: n/a
+
+
+
+Projektdaten (z.B. Ergebnisse Archivrecherche, aber auch verwendete bereits existierende Daten, gegebenenfalls mehrfach ausfüllen)
+
+Beschreibung: Im Projekt wurden neue Fotos und 3D-Aufnahmen des Stein von Rosette gemacht Shape-from-Shading und mittels einer selbst erstellen 3D-Software für das iPad (Barmpoutis/Bozia). Das Ziel war eine moderne digitale Edition. Diese wurde mittels Alignment in Ugarit iAligner durchgeführt, sowie das Treebanking der griechischen Version in Arethusa. Das Treebanking des demotischen Teils ist in Arbeit (Team in Leipzig). Dazu wurde eine Visualisierung erstellt, die das Alignment auf dem neuen 3D-Bild zeigt (browserbasiert, in HTML).
+
+Ursprung der Übersetzungen: Prof. Heinz-Josef Thissen (deutsch, vom Autor überlassen), Carol Andrews (British Mueum, englisch, aus Publikation Andrews/Quirke 1981, 18-22), Günter Vittmann (TLA, online), Stefan Pfeiffer (Griechische und lateinische Inschriften zum Ptolemäerreich und zur römischen Provinz Aegyptus, EQÄ Band 9, Berlin 2017) – jeweils leicht adaptiert von Josephine Hensel.
+
+Griechisches Treebanking: Giuseppe Celano und Polina Yordanova, publiziert hier:  https://nbn-resolving.org/urn:nbn:de:bsz:15-qucosa-201522, in Altertumswissenschaften in a Digital Age : Egyptology, Papyrology and beyond ; proceedings of a conference and workshop in Leipzig, November 4-6, 2015 / edited by Monica Berti and Franziska Naether. Leipzig, 2016. Beitrag 5
+
+Demotisches Treebanking: hier in zwei Repos archiviert
+
+Digitale Ausstellung bei ddbstudio: liegt auf Servern der SPK, dort auch Metadaten zu allen gezeigten Medien ebd. beschrieben: https://ausstellungen.deutsche-digitale-bibliothek.de/stein-von-rosette/ und ausstellungen.deutsche-digitale-bibliothek.de/rosetta-stone/
+
+
+
+Ethische und rechtliche Aspekte
+
+–	Sind ethische und rechtliche Aspekte in Bezug auf verwendete Datenquellen zu beachten? 
+nein
+–	Sind ethische und rechtliche Aspekte in Bezug auf neu erstellte Datensätze zu beachten? 
+Copyright bei dem Scan des Steins im British Museum – erlaubt durch Ilona Regulski und Neal Spencer; Daten sind mit BM geteilt; alle neuen Daten wurden in Absprache mit allen Partnern mit einer CC-BY-SA 4.0-Lizenz geteilt
+
+
+Speicherung, Archivierung und Sicherung der Daten (und Metadaten)
+
+–	typische Abläufe im Rahmen der Arbeit mit den verschiedenen Daten kurz beschreiben; von Archivrecherche bis Export der Ergebnisse in die Wissensbasis
+o	Wo werden die Daten verarbeitet (Arbeitslaptops und privater Laptops)
+o	Welche Forschende sind beteiligt? Siehe admin. Angaben
+o	Welche Arbeitsschritte gibt es? Alignment, 3D-Scan + image processing, Visualisierung, Treebanking, Wissenschaftskommunikation (Website, Veranstaltungen), Lehre, Dokumentation
+o	Gibt es Planungen/Abläufe zum kollaborativen Arbeiten? Ja, in Asana, und über Kommunikationstools (intern); zu Ugarit, Arethusa: in deren Dokumentationen; Tutorials in Sunoikisis
+–	Speicherung und Sicherung der Daten beschreiben
+o	Wo werden die Daten gespeichert? S.o.
+o	Werden die Daten vor unberechtigtem Zugriff geschützt? S.o.
+o	Wie lange werden die gespeichert? Wann werden sie ggf. gelöscht? Eine Löschung ist nicht vorgesehen
+o	Wann, wo, wie und durch wen werden Daten gesichert/gebackupt? Automatisch oder manuell? Laptops: manuell; Clouds: durch Anbieter (Google Drive)/Uni Leipzig
+–	Archivierung beschreiben
+o	Welche Pläne liegen für die Datenarchivierung bzgl. Archivierungsort, Dauer, Verantwortlichkeiten, Auswahl & Löschung von Daten vor? Keine, siehe Speicherung
+o	Unterrichtsmaterial bei IANUS: IANUS Sammlung 2016-00005, DOI 10.13149/002.lwd83q-0 
+
+
+Datenverfügbarkeit und Dokumentation
+–	Die Bereitstellung der Daten beschreiben
+o	Welche Daten (Ergebnisse der Recherche; Scans, Fotos; Daten der Wissensbasis) werden wie, wo und durch wen zugänglich gemacht? Per Website; Depth Map: HCommons/QUCOSA etc., digitale Ausstellung bei ddbstudio, Publikation in HES/Brill (open access)
+o	Weitere Bilddaten/3D-Daten später, wenn fertig in GitHub
+o	GitHub: Alignment/Treebanking, HTML-Code
+-	Dokumentation: hier auf GitHub
+-	Blogbeitrag zur Dokumentation (Josephine Hensel, in Planung)
+
+Verantwortlichkeiten / Organisatorisches
+–	Verantwortlichkeiten bzw. Zuständigkeiten in Bezug auf FDM klären
+o	Wer ist für welche Aspekte des FDM zuständig? F. Naether
+o	Wer ist Ansprechpartner? F. Naether
+o	Gibt es externe/interne Auflagen das FDM betreffend (Förderer, Institut, ...)? Ja, durch die [UL – Link zu Uni Leipzig Richtlinie (PDF)](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.uni-leipzig.de/fileadmin/ul/Dokumente/190424_Grunds%25C3%25A4tze_Forschungsdatenmanagement.pdf&ved=2ahUKEwid8oaI_9qMAxWIBdsEHbo_M9YQFnoECBkQAQ&usg=AOvVaw2Mdhdt25jd3rhfvcMjqzo3), BMBF nicht
+
+
+Kostenfragen
+–	Übersicht über entstehende Kosten geben
+o	Welche personellen und materiellen Ressourcen sind zur Erreichung der Ziele notwendig? 2017-2019 Personal, Reise- und Sachkosten (siehe Anträge)
+o	Wie sind diese Ressourcen finanziert? BMBF, danach haushaltsfinanziert
+
